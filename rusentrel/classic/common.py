@@ -1,6 +1,4 @@
 from arekit.networks.context.configurations.base import DefaultNetworkConfig
-from arekit.networks.multi.configuration.base import BaseMultiInstanceConfig
-from rusentrel.default import MI_CONTEXTS_PER_OPINION
 
 
 def classic_ctx_common_config_settings(config):
