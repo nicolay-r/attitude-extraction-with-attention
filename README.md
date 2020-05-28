@@ -2,6 +2,8 @@
 
 This section will be updated.
 
+> **Upd May 28'th, 2020:** An additional restriction towards entity pairs considered as an attitude in context. We treat pairs between object and subject appeared in context **only when** the distance between them in words (terms) not greater than 10. [[source code reference]](https://github.com/nicolay-r/attitude-extraction-with-attention/blob/058e779a82a076089e3c961cfab996c62066ee41/experiments/rusentrel/neutrals.py#L180)
+
 ## Dependencies
 
 * Python-2.7
