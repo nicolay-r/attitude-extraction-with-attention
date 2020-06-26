@@ -1,6 +1,17 @@
 # Studying Attention Models in Sentiment Attitude Extraction Task
 
-This section will be updated.
+![](images/frames.png)
+> **Figure:** Weight distribution visualization for model Att-BLSTM 
+on sentiment contexts, where attitude is conveyed 
+by frame (colored), presented in context.
+
+This repository provides a source code of models and related experiments, conducted as a part of the following paper:
+
+* Studying Attention Models in Sentiment Attitude Extraction Task 
+[[Springer]](https://doi.org/10.1007/978-3-030-51310-8_15) /
+[[arXiv:2006.11605]](https://arxiv.org/abs/2006.11605)
+    * Rusnachenko Nicolay, Loukachevitch Natalia
+    * NLDB-2020
 
 ## Dependencies
 
@@ -31,4 +42,15 @@ cd data && ./download.sh
 
 ## References
 
-This section will be updated.
+```
+@inproceedings{rusnachenko-2020-attention,
+    title = "Studying Attention Models in Sentiment Attitude Extraction Task",
+    author = "Rusnachenko, Nicolay  and Loukachevitch, Natalia",
+    journal = "M\'etais E., Meziane F., Horacek H., Cimiano P. (eds) Natural Language Processing and Information Systems. 
+        NLDB 2020. Lecture Notes in Computer Science, vol 12089. Springer, Cham",
+    booktitle = "Proceedings of the 25th International Conference on Natural Language and Information Systems",
+    year = "2020",
+    url = "https://doi.org/10.1007/978-3-030-51310-8_15",
+    doi = "10.1007/978-3-030-51310-8_15",
+}
+```
