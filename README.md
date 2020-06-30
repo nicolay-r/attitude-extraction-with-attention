@@ -1,6 +1,6 @@
 # Studying Attention Models in Sentiment Attitude Extraction Task
 
-![](images/frames.png)
+![](docs/frames.png)
 > **Figure:** Weight distribution visualization for model Att-BLSTM 
 on sentiment contexts, where attitude is conveyed 
 by frame (colored), presented in context.
@@ -9,7 +9,8 @@ This repository provides a source code of models and related experiments, conduc
 
 * Studying Attention Models in Sentiment Attitude Extraction Task 
 [[Springer]](https://doi.org/10.1007/978-3-030-51310-8_15) /
-[[arXiv:2006.11605]](https://arxiv.org/abs/2006.11605)
+[[arXiv:2006.11605]](https://arxiv.org/abs/2006.11605) /
+[[presentaiton]](docs/nldb_2020_slides.pdf)
     * Rusnachenko Nicolay, Loukachevitch Natalia
     * NLDB-2020
 
