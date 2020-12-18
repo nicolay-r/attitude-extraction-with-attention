@@ -1,5 +1,7 @@
 # Studying Attention Models in Sentiment Attitude Extraction Task
 
+> **UPD 18'th december, 2020**: Fixed bug in results evaluation; the latter might affect on prec/recall for documents that lacks of neutral opinions in model results. [[issue #1]](https://github.com/nicolay-r/attitude-extraction-with-attention/issues/1) 
+
 ![](docs/frames.png)
 > **Figure:** Weight distribution visualization for model Att-BLSTM 
 on sentiment contexts, where attitude is conveyed 
