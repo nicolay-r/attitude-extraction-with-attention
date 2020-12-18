@@ -1,6 +1,8 @@
 # Studying Attention Models in Sentiment Attitude Extraction Task
 
-> **UPD 18'th december, 2020**: Fixed bug in results evaluation; the latter might affect on prec/recall for documents that lacks of neutral opinions in model results. [[issue #1]](https://github.com/nicolay-r/attitude-extraction-with-attention/issues/1) 
+> **UPD December 18'th, 2020**: Fixed bug in results evaluation; the latter might affect on prec/recall for documents that lacks of neutral opinions in model results. [[issue #1]](https://github.com/nicolay-r/attitude-extraction-with-attention/issues/1) 
+
+> **UPD May 28'th, 2020:** An additional restriction towards entity pairs considered as an attitude in context. We treat pairs between object and subject appeared in context **only when** the distance between them in words (terms) not greater than 10. [[source code reference]](https://github.com/nicolay-r/attitude-extraction-with-attention/blob/058e779a82a076089e3c961cfab996c62066ee41/experiments/rusentrel/neutrals.py#L180)
 
 ![](docs/frames.png)
 > **Figure:** Weight distribution visualization for model Att-BLSTM 
@@ -15,8 +17,6 @@ This repository provides a source code of models and related experiments, conduc
 [[presentaiton]](docs/nldb_2020_slides.pdf)
     * Rusnachenko Nicolay, Loukachevitch Natalia
     * NLDB-2020
-
-> **Upd May 28'th, 2020:** An additional restriction towards entity pairs considered as an attitude in context. We treat pairs between object and subject appeared in context **only when** the distance between them in words (terms) not greater than 10. [[source code reference]](https://github.com/nicolay-r/attitude-extraction-with-attention/blob/058e779a82a076089e3c961cfab996c62066ee41/experiments/rusentrel/neutrals.py#L180)
 
 ## Dependencies
 
