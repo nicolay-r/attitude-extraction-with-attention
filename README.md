@@ -21,7 +21,7 @@ This repository provides a source code of models and related experiments, conduc
 ## Dependencies
 
 * Python-2.7
-* arekit-0.20.0 
+* [arekit-0.20.0-nldb-rc](https://github.com/nicolay-r/AREkit/tree/0.20.0-nldb-rc)
 
 ## Installation
 
