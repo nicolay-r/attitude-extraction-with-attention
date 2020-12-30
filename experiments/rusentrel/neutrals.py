@@ -175,10 +175,10 @@ class RuSentRelNeutralAnnotationCreator:
                 if s_dist > 0:
                     continue
 
-                t_dist = self.__get_distance_in_terms_between_entities(n_id=n_id, e1=e1, e2=e2)
+                # t_dist = self.__get_distance_in_terms_between_entities(n_id=n_id, e1=e1, e2=e2)
 
-                if t_dist > 10:
-                    continue
+                # if t_dist > 10:
+                #    continue
 
                 if sentiment_opinions is not None:
                     o = RuSentRelOpinion(e1.Value, e2.Value, NeutralLabel())
